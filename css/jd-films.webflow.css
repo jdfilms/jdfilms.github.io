@@ -365,7 +365,7 @@ a {
 
 .pricing-box-price {
   margin-top: 0px;
-  margin-bottom: 45px;
+  margin-bottom: 0px;
   color: #e3b23c;
   font-size: 40px;
   line-height: 45px;
@@ -566,6 +566,12 @@ a {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+}
+
+.pricing-box-sub-footer {
+  margin-bottom: 40px;
+  color: #e3b23c;
+  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
